@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+#reports{clear:both; top:10px; font-size:12px;}
+.chart{float:left;width:250px;}
+fieldset .overlay{
+    position:absolute; top:0; width:99%; height:100%; z-index:500; display:none;
+    background:rgba(255,255,255,0.5); 
+}
+fieldset .overlay div{
+    position:relative; top: 15%; width:5%; margin: auto;
+}
+.contextMenu{
+	position:absolute; z-index:999999; 
+	width:120px; background:#EEE;
+	border:1px solid #CCC; 
+	display: none; padding: 0px; margin: 0px;
+}
+.contextMenu li {
+	list-style: none;
+	padding: 0px; margin: 0px;
+}
+.contextMenu a {
+	color: #333; text-decoration: none;
+	display: block; line-height: 20px; 
+	height: 20px;
+	background-position: 6px center;
+	background-repeat: no-repeat;
+	outline: none;
+	padding: 1px 5px; padding-left: 28px;
+}
+.contextMenu li.hover a {
+	color: #FFF;
+	background-color: #3399FF;
+}
+
+.contextMenu li.disabled a {
+	color: #AAA;
+	cursor: default;
+}
+
+.contextMenu li.hover.disabled a {
+	background-color: transparent;
+}
+
+.contextMenu li.separator {
+	border-top: solid 1px #CCC;
+}
+*/
